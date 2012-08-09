@@ -1,0 +1,5 @@
+﻿@model MvcNewsApp.Data.Entities.Interfaces.INavigable
+@using MvcNewsApp.Data
+<li>
+<a href="@Html.RenderingItem().Url()">@Html.FieldFor(m => m.NavigationTitle)</a>
+</li>

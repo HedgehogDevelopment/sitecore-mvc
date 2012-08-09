@@ -1,0 +1,9 @@
+﻿@model MvcNewsApp.Data.Entities.Article
+@using MvcNewsApp.Data
+
+<div class="Sidebar">
+@foreach (MvcNewsApp.Data.Entities.Article article in Model.RelatedArticles)
+{
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/MvcNewsApp/News/SummarySidebar", new { ItemId = article.SitecoreItem.ID })
+}
+</div>

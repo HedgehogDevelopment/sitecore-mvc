@@ -1,0 +1,10 @@
+﻿@model MvcNewsApp.Data.Entities.Article
+@using MvcNewsApp.Data      
+<div class="row">
+    <div class="span9">
+        @Html.FieldFor(m => m.HeaderImage)
+    </div>
+</div>     
+<h1>@Html.FieldFor(m=>m.Title)</h1>
+<h4>Article Date: @Html.FieldFor(m=>m.FormattedArticleDate)</h4>
+@Html.FieldFor(m=>m.Body)

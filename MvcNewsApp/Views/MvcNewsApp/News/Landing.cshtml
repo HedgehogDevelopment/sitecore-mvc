@@ -1,0 +1,4 @@
+﻿@foreach (Sitecore.Data.Items.Item item in @Html.Sitecore().CurrentItem.Children)
+{
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/MvcNewsApp/News/NewsSummary", new {ItemId = item.ID})
+}

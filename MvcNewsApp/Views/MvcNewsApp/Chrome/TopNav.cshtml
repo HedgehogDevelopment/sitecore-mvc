@@ -1,0 +1,16 @@
+﻿@model MvcNewsApp.Models.Chrome.TopNavModel
+@using MvcNewsApp.Data
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+@foreach (MvcNewsApp.Data.Entities.Interfaces.INavigable navItem in Model.Navigation)
+{
+    @Html.Sitecore().Rendering("/sitecore/layout/Renderings/MvcNewsApp/Common/NavLink", new { ItemId = navItem.SitecoreItem.ID })
+}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

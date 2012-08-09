@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {BD414284-7E17-4448-B87C-C8117BC5A465}
+database: master
+path: /sitecore/templates/MvcNewsApp/Article/__Standard Values
+parent: {780D1F2C-5DBC-487B-BC9E-31B1B3D57CCF}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {780D1F2C-5DBC-487B-BC9E-31B1B3D57CCF}
+templatekey: Article
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 727
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BB3BBDBE-0BFE-413D-8D55-2C8A4C8C79BB}"><r id="{7B872AE2-AF4C-431B-8788-A0E660FAEE17}" ph="Body" uid="{F3D971E4-8DD7-4368-884E-84D9BA5A1FB8}" /><r ds="/sitecore/content/Controls/DefaultFooter" id="{04AC4426-4F13-4932-BDFD-177D568DFE58}" par="" ph="Footer" uid="{E8D10F9C-E06A-410A-83E8-6436B9997710}" /><r id="{148E682A-C28F-4766-B489-09BA2CF66032}" ph="TopNav" uid="{8408D82C-DF2E-4F9A-A1D0-BA831AFF0C91}" /><r id="{EAD1C990-C4B5-4FF6-8EE0-BA7517C9F541}" ph="Sidebar" uid="{B1A071F3-DA64-45E1-96F1-1CC2A74F4DAC}" /><r id="{D64622C9-1097-4BAC-B44E-CB5F05CC23E7}" ph="Main" uid="{216023A8-62FA-4A5C-9B62-5DA549AE0D14}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 651b760d-96c6-49c7-ad4f-50847cf49c10
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120706T082223
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+651b760d-96c6-49c7-ad4f-50847cf49c10
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120712T075753:634776766738324640
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

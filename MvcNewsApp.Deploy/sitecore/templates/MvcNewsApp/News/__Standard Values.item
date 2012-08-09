@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {0408408B-951F-4756-960F-02AEE0D1EBFE}
+database: master
+path: /sitecore/templates/MvcNewsApp/News/__Standard Values
+parent: {E5798F79-8C77-4FFB-86CA-0ECD61B8F521}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E5798F79-8C77-4FFB-86CA-0ECD61B8F521}
+templatekey: News
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{780D1F2C-5DBC-487B-BC9E-31B1B3D57CCF}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 844
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BB3BBDBE-0BFE-413D-8D55-2C8A4C8C79BB}"><r id="{7B872AE2-AF4C-431B-8788-A0E660FAEE17}" ph="Body" uid="{F3D971E4-8DD7-4368-884E-84D9BA5A1FB8}" /><r ds="/sitecore/content/Controls/DefaultFooter" id="{04AC4426-4F13-4932-BDFD-177D568DFE58}" par="" ph="Footer" uid="{E8D10F9C-E06A-410A-83E8-6436B9997710}" /><r id="{6CDDB2CF-661B-4A6A-8CDD-EA94F42FD923}" ph="Main" uid="{7E6CAF46-4DAB-4A48-BCD2-358C2518EB7F}" /><r id="{148E682A-C28F-4766-B489-09BA2CF66032}" ph="TopNav" uid="{8408D82C-DF2E-4F9A-A1D0-BA831AFF0C91}" /><r id="{04912DAB-84B9-4040-9651-583D92982701}" ph="Sidebar" uid="{3A0693B8-9EA1-4F92-AAE1-397E55C9C422}" /><r ds="" id="{5FA45389-3266-4116-9696-A51FA53D7487}" par="" ph="Main" uid="{9E419AD2-19C5-4C66-8F45-EAD174E07B9E}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4f73d27d-9be7-4974-8c4f-457e598c9177
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120705T082530
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f73d27d-9be7-4974-8c4f-457e598c9177
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120710T131834:634775231143068848
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

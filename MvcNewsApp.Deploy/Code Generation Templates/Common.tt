@@ -1,0 +1,218 @@
+﻿<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="HedgehogDevelopment.SitecoreProject.VSIP.CodeGeneration.Models" #>
+<#+
+/// Returns true if the name is an interface name
+bool IsInterfaceName(string name)
+{
+	return (name.Length > 2 && !name.Contains(" ") && (name[0] == 'I' && char.IsUpper(name, 1) && char.IsLower(name, 2)));
+}
+
+/// <summary>
+/// Builds the initialize method in the classes.
+/// </summary>
+/// <param name="template"></param>
+void BuildInitializeMethod(SitecoreTemplate template)
+{
+	CreateBackingFields(template);
+#>
+
+        public override void Initialize(Rendering rendering)
+        {
+            base.Initialize(rendering);
+
+<#+
+	CreateFieldSetters(template);
+#>
+		}
+<#+
+}
+
+/// <summary>
+/// Builds field setter logic. Only the types used in the POC are implemented
+/// </summary>
+/// <param name="template"></param>
+void CreateFieldSetters(SitecoreTemplate template)
+{
+	foreach(SitecoreField field in template.Fields)
+	{
+		switch (field.Type)
+		{
+			case "Single-Line Text":
+			case "Rich Text":
+#>
+			<#=field.Name#> = rendering.Item["<#=field.Name#>"];
+<#+
+				break;
+			case "General Link":
+			case "Image":
+			case "Date":
+#>
+			<#=field.Name#> = rendering.Item.Fields["<#=field.Name#>"];
+<#+
+				break;
+			case "Multilist":
+#>
+			_<#=field.Name#> = rendering.Item.Fields["<#=field.Name#>"];
+<#+
+				break;
+			default:
+#>
+			//Unknown field type <#=field.Type#>
+<#+
+				break;
+		}
+	}
+		
+	foreach(SitecoreTemplate baseTemplate in template.BaseTemplates)
+	{
+		if (IsInterfaceName(baseTemplate.Name))
+		{
+			CreateFieldSetters(baseTemplate);
+		}
+	}	
+}
+
+/// <summary>
+/// creates backing fields in the model for types that we want ot lazily populate. These are typically fields that point at other Sitecore items like Multilist fields.
+/// </summary>
+/// <param name="template"></param>
+void CreateBackingFields(SitecoreTemplate template)
+{
+	foreach(SitecoreField field in template.Fields)
+	{
+		switch (field.Type)
+		{
+			case "Multilist":
+#>
+		private MultilistField _<#=field.Name#>;
+<#+
+				break;
+		}
+	}
+	
+	foreach(SitecoreTemplate baseTemplate in template.BaseTemplates)
+	{
+		if (IsInterfaceName(baseTemplate.Name))
+		{
+			CreateBackingFields(baseTemplate);
+		}
+	}
+}
+
+/// <summary>
+/// Implements any interfaces in any of the base templates for a template
+/// </summary>
+/// <param name="template"></param>
+void ImplementInterfaces(SitecoreTemplate template)
+{
+	foreach(SitecoreTemplate baseTemplate in template.BaseTemplates)
+	{
+		if (IsInterfaceName(baseTemplate.Name))
+		{
+			BuildFields(baseTemplate, false);
+			
+			ImplementInterfaces(baseTemplate);
+		}
+	}
+}
+
+/// <summary>
+/// Renders fields for a template
+/// </summary>
+/// <param name="template"></param>
+/// <param name="isInterface"></param>
+void BuildFields(SitecoreTemplate template, bool isInterface)
+{
+#>
+
+		// Fields for <#= template.Name#>
+<#+
+	string fieldVisibility = "";
+	
+	if (!isInterface)
+	{
+		fieldVisibility="public ";
+	}
+	
+	foreach(SitecoreField field in template.Fields)
+	{
+		string fieldType;
+		
+		switch (field.Type)
+		{
+			case "Single-Line Text":
+			case "Rich Text":
+				fieldType = "string";
+				break;
+			case "General Link":
+				fieldType = "LinkField";
+				break;
+			case "Image":
+				fieldType = "ImageField";
+				break;
+			case "Date":
+				fieldType = "DateField";
+				break;
+			case "Multilist":
+				fieldType = "IEnumerable<" + field.Data + ">";
+				break;
+			default:
+				fieldType = "//Unknown Type " + field.Type;
+				break;
+		}
+		
+		if (isInterface || field.Type != "Multilist")
+		{
+#>
+		<#=fieldVisibility#><#=fieldType#> <#=field.Name#> { get; set; }
+<#+
+		}
+		else	
+		{
+#>
+		<#=fieldVisibility#><#=fieldType#> <#=field.Name#> 
+		{
+			get
+			{
+				return ModelFactory.Models<<#=field.Data#>>(_<#=field.Name#>.GetItems());
+			}
+		}
+<#+
+		}
+	}
+}
+
+/// <summary>
+/// Renders base template names.
+/// </summary>
+/// <param name="template"></param>
+/// <param name="isInterface"></param>
+void GetBaseTemplateNames(SitecoreTemplate template, bool isInterface)
+{
+	bool needBase = true;
+
+	foreach(SitecoreTemplate baseTemplate in template.BaseTemplates)
+	{
+		if (!IsInterfaceName(baseTemplate.Name))
+		{
+			needBase = false;
+			
+			break;
+		}
+	}
+
+	if (needBase)
+	{
+		#><#=isInterface ? "I" : ""#>BaseEntity<#+
+	}
+	
+	bool isFirstBase = true;
+	
+	foreach(SitecoreTemplate baseTemplate in template.BaseTemplates)
+	{
+		#><#=(needBase || !isFirstBase) ? ", " : ""#><#=baseTemplate.Name#><#+
+		
+		isFirstBase = false;
+	}
+}
+#>

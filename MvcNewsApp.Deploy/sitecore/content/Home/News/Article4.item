@@ -1,0 +1,177 @@
+----item----
+version: 1
+id: {8FAD400C-6AB4-4EEA-86F1-C34F5CE80D8A}
+database: master
+path: /sitecore/content/Home/News/Article4
+parent: {9992D85A-D251-491A-AB2F-C43BF0408B65}
+name: Article4
+master: {00000000-0000-0000-0000-000000000000}
+template: {780D1F2C-5DBC-487B-BC9E-31B1B3D57CCF}
+templatekey: Article
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: cfabd50e-f788-4f0a-920a-78f01ff0b6b1
+
+----field----
+field: {C9E36547-7176-4288-A606-4764DD36739E}
+name: HeaderImage
+key: headerimage
+content-length: 138
+
+<image mediaid="{982A15F0-10DE-4163-AA85-2EE89323CABC}" mediapath="/Images/Header3" src="~/media/982A15F010DE4163AA852EE89323CABC.ashx" />
+----field----
+field: {304FB521-2829-4FFB-8EC8-F4D56138E58C}
+name: RelatedArticles
+key: relatedarticles
+content-length: 0
+
+
+----field----
+field: {16A3F21B-5B14-4114-A1B5-651BE9343F37}
+name: ArticleDate
+key: articledate
+content-length: 15
+
+20120809T000000
+----field----
+field: {6D887365-5462-4E21-A44B-E490200C55FD}
+name: Title
+key: title
+content-length: 29
+
+Team Development for Sitecore
+----field----
+field: {94A5BF58-56E6-4AC1-96F5-80B0FB968535}
+name: Body
+key: body
+content-length: 2355
+
+
+		<h1>Team Development for Sitecore (TDS)</h1>
+<h2>
+Brings all Sitecore objects into Visual Studio.
+Reduces your deployment time to almost zero.
+</h2>
+<div class="clear"></div>
+<div class="tds-overview-page-body">
+<p>Team Development for Sitecore (TDS) brings all of your Sitecore objects into Visual Studio. Imagine having all the benefits of a Source Control Management System fully integrated into your Sitecore Development environment. Team Development for Sitecore (TDS) makes that a reality. Now you are able to take advantage of the value Visual Studio Team System (VSTS), Subversion, or many other Source Code Management Systems offer to you on your Sitecore-based projects.</p>
+</div>
+<div class="tds-overview-without-tds">
+<div class="large-red">
+<p>You could build and deploy<br>
+your Sitecore projects<br>
+<strong>Without</strong><br>
+Team Development for Sitecore</p>
+</div>
+<div class="tds-overview-down-arrow"></div>
+<div class="small-red">
+<p>Build your code from your Source Control System</p>
+</div>
+<div class="tds-overview-down-arrow"></div>
+<div class="small-red">
+<p>Copy the code to your target environment</p>
+</div>
+<div class="tds-overview-down-arrow"></div>
+<div class="medium-red ">
+<p>Tell the development team that you want to do a deployment so they can create packages of all their changes</p>
+</div>
+<div class="tds-overview-down-arrow"></div>
+<div class="medium-red ">
+<p>Hope that you got everything and start deploying 1 or more packages to your target environment</p>
+</div>
+</div>
+<div class="tds-overview-seperator">or</div>
+<div class="tds-overview-with-tds">
+<div class="part1">
+<p>You could build and deploy your Sitecore projects<br>
+<strong>WITH</strong><br>
+Team Development for Sitecore</p>
+</div>
+<div class="tds-overview-down-arrow"></div>
+<div class="part2">
+<p>Continuous Integration automatically moves your code and Sitecore items to your target environment from your Source Code Control System.</p>
+</div>
+<div class="part3">
+<p>Using <strong>Continuous Integration</strong> all code and Sitecore items are deployed to the target server automatically. Maximum number of user steps 0.</p>
+<p>If you choose to not use Continuous Integration (Production deployment, for example) you can let Team Development for Sitecore create an Update Package for you. Maximum number of user steps 1.</p>
+</div>
+</div>
+----field----
+field: {06C16129-0437-44FF-BA37-86EBFE49D8E8}
+name: SummaryImage
+key: summaryimage
+content-length: 146
+
+<image mediaid="{3637DCED-C569-4E5D-A37F-8087FA7BBA79}" mediapath="/Images/barkerbox-img_1" src="~/media/3637DCEDC5694E5DA37F8087FA7BBA79.ashx" />
+----field----
+field: {2A9200DE-FEA0-4B6C-9604-6DC8DEEFD650}
+name: Summary
+key: summary
+content-length: 91
+
+Team Development for Sitecore (TDS) brings all of your Sitecore objects into Visual Studio.
+----field----
+field: {E255B0A1-6BDC-4E0B-8D91-4DBEDFF2D038}
+name: NavigationTitle
+key: navigationtitle
+content-length: 8
+
+Article4
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120706T081911
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cfabd50e-f788-4f0a-920a-78f01ff0b6b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120718T154212:634782229322339488
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {ABE5D54C-59D7-41E6-8D3F-C1A3E4EC9B9E}
+name: __Reminder date
+key: __reminder date
+content-length: 15
+
+20120713T120000
+----field----
+field: {BB6C8540-118E-4C49-9157-830576D7345A}
+name: __Reminder text
+key: __reminder text
+content-length: 4
+
+test
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

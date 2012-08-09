@@ -1,0 +1,10 @@
+﻿@model MvcNewsApp.Data.Entities.Controls.SidebarItem
+@using MvcNewsApp.Data
+<div class="row SidebarItem">
+    <div class="span3">
+        <div class="SidebarContent">
+            <h3>@Html.FieldFor(m => m.Title)</h3>
+            @Html.FieldFor(m => m.Text)
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {16471263-8CAC-497E-B58D-60293363F22D}
+database: master
+path: /sitecore/content/Controls/SidebarItems/SidebarItem2
+parent: {F42BCB64-3917-4B71-AEE6-64A018FB2F07}
+name: SidebarItem2
+master: {00000000-0000-0000-0000-000000000000}
+template: {0EE22E81-0A86-48BD-AE53-19F221506353}
+templatekey: SidebarItem
+
+----version----
+language: en
+version: 1
+revision: a07dd099-1509-440b-8716-fa04732a87e5
+
+----field----
+field: {36322EF7-F740-40B3-9E63-FFEDF61BC742}
+name: Title
+key: title
+content-length: 14
+
+Sidebar Item 2
+----field----
+field: {DB27493D-2296-40D4-8039-8974534B5EA3}
+name: Text
+key: text
+content-length: 258
+
+With Team Development for Sitecore you can stop worrying about dependencies and allow your developers to work with complete freedom, focusing on what they need to accomplish rather than worrying about how well it will play with changes others may be making. 
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120705T082608
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a07dd099-1509-440b-8716-fa04732a87e5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120718T154305:634782229858310176
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

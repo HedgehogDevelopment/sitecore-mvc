@@ -1,0 +1,141 @@
+----item----
+version: 1
+id: {BAA09BE0-1B33-42C7-B948-FFFC33152EA1}
+database: master
+path: /sitecore/content/Home/News/Article2
+parent: {9992D85A-D251-491A-AB2F-C43BF0408B65}
+name: Article2
+master: {00000000-0000-0000-0000-000000000000}
+template: {780D1F2C-5DBC-487B-BC9E-31B1B3D57CCF}
+templatekey: Article
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: 6ec949e4-3d02-4dcb-bbfa-15b56ad77ff0
+
+----field----
+field: {304FB521-2829-4FFB-8EC8-F4D56138E58C}
+name: RelatedArticles
+key: relatedarticles
+content-length: 77
+
+{9E44FEE3-3756-484C-849A-0622BAE4780E}|{8FAD400C-6AB4-4EEA-86F1-C34F5CE80D8A}
+----field----
+field: {16A3F21B-5B14-4114-A1B5-651BE9343F37}
+name: ArticleDate
+key: articledate
+content-length: 15
+
+20120702T000000
+----field----
+field: {6D887365-5462-4E21-A44B-E490200C55FD}
+name: Title
+key: title
+content-length: 28
+
+Sitecore wellness evaluation
+----field----
+field: {94A5BF58-56E6-4AC1-96F5-80B0FB968535}
+name: Body
+key: body
+content-length: 3682
+
+<h2>Sitecore Wellness Evaluation</h2>
+<p>When it comes to something as valuable as your personal health, or even the maintenance of your car for that matter, you already know why it&rsquo;s important to invest in regularly scheduled wellness check-ups. Well, the same holds true for your CMS. There are many factors within any given company and its IT structure that can adversely affect Sitecore performance. Since you chose wisely by selecting Sitecore, the world&rsquo;s best CMS, we want to help you ensure that this important investment keeps running smoothly for years to come. <br />
+<br />
+What makes us qualified to do this? Our ability to continuously provide best-in-class Sitecore solutions for total system delivery to end-users like you, has earned us a worldwide reputation as trusted Sitecore experts. From experience we have developed a comprehensive list of Sitecore best practices that enables us to identify trouble areas.<br />
+<br />
+Our Sitecore Wellness Evaluation will provide you with the peace of mind you need so you can concentrate on content without worrying about whether or not your Sitecore deployment structure can support your solution. Our Sitecore support will monitor your system and if we detect a potential issue, we&rsquo;ll diagnose and prescribe the best solution to give your system a clean bill of health. <br />
+<br />
+We will frequently: </p>
+<ul>
+    <li><strong>Inventory your Sitecore deployment.</strong> <br />
+    The first thing we&rsquo;ll do is map out your entire Sitecore deployment, from your IIS servers that host your Content Management (CM) and/or Content Delivery (CD) role, to the Sitecore database targets that are specified in the web/config file. This first step gives us insight as to how each part of your deployment connection is strung together. </li>
+    <li><strong>Examine Sitecore best practices. </strong><br />
+    There are many factors that can hamper your site&rsquo;s performance, that some performance testing won't inform you of. Our Sitecore specialists examine areas where performance issues can occur. Through our experience with Sitecore, we have developed a comprehensive list of Sitecore best practices that, when followed, will optimize your Sitecore performance. </li>
+    <li><strong>Create a diagram of your Sitecore deployment.</strong> <br />
+    We&rsquo;ll provide you with a diagram of your entire Sitecore deployment, so you can have a better grasp on your site&rsquo;s structure and flow. This information will help you create more robust builds and detect potential problems in the future more easily and readily. </li>
+    <li><strong>Analyze each Sitecore validation we&rsquo;ve performed.</strong> <br />
+    Based on our Sitecore best practices check-list, we can tell you where your site may be at risk and where your site is particularly strong. This will give you the ability to focus your energy on one key area, without worrying about overlooking other deployment areas. </li>
+    <li><strong>Provide recommendations for the future stability of your site.</strong> <br />
+    We&rsquo;ll provide you with the best way to certify your site&rsquo;s functionality for the future. Our recommendations come from years of experience and can help you avoid many of the mistakes we&rsquo;ve seen occur with other Sitecore solutions. </li>
+</ul>
+<p>Don&rsquo;t leave your site unprotected from unforeseen challenges that can put stress on the functionality of your Sitecore development. Enjoy many healthy, worry-free years of deployment with the Sitecore Wellness Evaluation program. Contact Hedgehog today to sign up at 631-676-2186 or sales@hhogdev.com. </p>
+----field----
+field: {06C16129-0437-44FF-BA37-86EBFE49D8E8}
+name: SummaryImage
+key: summaryimage
+content-length: 139
+
+<image mediaid="{55BD9857-C624-4713-B74B-F6B1A3B67FB1}" mediapath="/Images/Summary2" src="~/media/55BD9857C6244713B74BF6B1A3B67FB1.ashx" />
+----field----
+field: {2A9200DE-FEA0-4B6C-9604-6DC8DEEFD650}
+name: Summary
+key: summary
+content-length: 206
+
+When it comes to something as valuable as your personal health, or even the maintenance of your car for that matter, you already know why it’s important to invest in regularly scheduled wellness check-ups. 
+----field----
+field: {E255B0A1-6BDC-4E0B-8D91-4DBEDFF2D038}
+name: NavigationTitle
+key: navigationtitle
+content-length: 9
+
+Article 2
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120705T082556
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ec949e4-3d02-4dcb-bbfa-15b56ad77ff0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120718T153824:634782227049070688
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,9 @@
+﻿@model MvcNewsApp.Data.Entities.News
+@using MvcNewsApp.Data
+
+<div class="Sidebar">
+@foreach (MvcNewsApp.Data.Entities.Controls.SidebarItem sidebarItem in @Model.Sidebar)
+{
+    @Html.Sitecore().Item(sidebarItem.SitecoreItem.ID.ToString())
+}
+</div>

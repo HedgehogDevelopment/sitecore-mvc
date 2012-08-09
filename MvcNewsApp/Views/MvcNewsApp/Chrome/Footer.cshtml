@@ -1,0 +1,8 @@
+﻿@model MvcNewsApp.Data.Entities.Controls.PageFooter
+@using MvcNewsApp.Data
+
+@Html.FieldFor(m => m.FooterMessage)<br />
+@foreach (Sitecore.Data.Items.Item item in @Html.Sitecore().CurrentRendering.Item.Children)
+{
+        @Html.Sitecore().Item(item.ID.ToString())
+}

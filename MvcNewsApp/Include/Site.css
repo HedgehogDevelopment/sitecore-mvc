@@ -1,0 +1,39 @@
+﻿.footer
+{
+    margin-top: 5px;
+    border-top: 1px solid #ccc;
+}
+
+.footer a
+{
+    margin-right: 10px;
+}
+
+.NewsSummary
+{
+    margin-bottom: 15px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #eee;
+}
+
+.Sidebar
+{
+    border: 1px solid #444;
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.SidebarItem
+{
+    margin-bottom: 5px;
+}
+
+.SidebarContent
+{
+    margin-right: 8px;
+}
+
+.SubmitEmail
+{
+    margin-top: 20px;
+}

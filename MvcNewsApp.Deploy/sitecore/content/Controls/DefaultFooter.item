@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {67DBD036-26C2-416F-A848-24B01020C3C3}
+database: master
+path: /sitecore/content/Controls/DefaultFooter
+parent: {61D64CC3-0B52-4E67-90F4-76E27558BD05}
+name: DefaultFooter
+master: {00000000-0000-0000-0000-000000000000}
+template: {53A0A37F-4B42-4686-9FFC-25D1E073F971}
+templatekey: PageFooter
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 33
+
+WordProcessing/32x32/footer_h.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{47E7156C-1C6D-4143-8C08-93471351914B}
+----version----
+language: en
+version: 1
+revision: 71de54cf-716d-4f0f-9034-bd89c0dc24ef
+
+----field----
+field: {10B02C55-769C-4093-A383-9BB7ED749846}
+name: FooterMessage
+key: footermessage
+content-length: 13
+
+MVC Demo Site
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120705T080654
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71de54cf-716d-4f0f-9034-bd89c0dc24ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120710T142124:634775268845382112
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

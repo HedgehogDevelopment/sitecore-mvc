@@ -2,5 +2,15 @@
 bin
 obj
 
+*.suo
+*.user
+
 # mstest test results
 TestResults
+
+*.dll
+
+# TDS 
+BuiltFiles_*
+T4RenderCache
+IconCache

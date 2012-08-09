@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {3A9FC58D-6B71-4C99-A823-BD540645FD92}
+database: master
+path: /sitecore/layout/Renderings/MvcNewsApp/News/SummarySidebar
+parent: {32335958-406D-4014-A37D-71EA34E505F3}
+name: SummarySidebar
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 44
+
+/Views/MvcNewsApp/News/SummarySidebar.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 405f8e3d-27ea-4093-ad21-ca3a1de70885
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120711T142800
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+405f8e3d-27ea-4093-ad21-ca3a1de70885
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120711T155451:634776188918988256
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

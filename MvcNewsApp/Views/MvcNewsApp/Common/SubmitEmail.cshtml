@@ -1,0 +1,14 @@
+﻿@model MvcNewsApp.Models.Common.SubmitEmailModel
+@using MvcNewsApp.Models.Common           
+<div class="row">
+    <div class="span3">
+        <div class="SubmitEmail">
+    @using (@Html.BeginForm("SubmitEmail", "Common", FormMethod.Post, new { @class = "well" }))
+    {
+        <label>What is your email:</label>
+        @Html.TextBoxFor(m => m.EmailAddress)<br />
+        <button type="submit" class="btn">Submit</button>
+    }
+        </div>
+    </div>
+</div>

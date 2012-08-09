@@ -1,0 +1,34 @@
+﻿@inherits System.Web.Mvc.WebViewPage  
+@using Sitecore.Mvc; 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+    <head>
+        @Html.Sitecore().Rendering("/sitecore/Layout/Renderings/MvcNewsApp/PageHeader/StandardHeader")
+        @Html.Sitecore().Rendering("/sitecore/Layout/Renderings/MvcNewsApp/PageHeader/Metadata")
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+        <link href="/include/bootstrap.css" rel="stylesheet"/>
+        <style>
+          body {
+            padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+          }
+        </style>
+        <link href="/include/bootstrap-responsive.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="/include/site.css" />
+    </head>
+    <body>
+        @Html.Sitecore().Placeholder("TopNav")
+        <div class="container">
+            <section>
+                <div class="row">
+                    @Html.Sitecore().Placeholder("Body")
+                </div>
+            </section>
+            <footer class="footer">
+                @Html.Sitecore().Placeholder("Footer")
+            </footer>
+        </div>
+ <!-- Placed at the end of the document so the pages load faster -->
+        <script src="/scripts/jquery.js"></script>
+        <script src="/scripts/bootstrap.js"></script>
+    </body>
+</html>

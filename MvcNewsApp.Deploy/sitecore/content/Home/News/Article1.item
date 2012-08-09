@@ -1,0 +1,144 @@
+----item----
+version: 1
+id: {6333DB19-2D2D-41AA-A6DD-DEB1CD94EF92}
+database: master
+path: /sitecore/content/Home/News/Article1
+parent: {9992D85A-D251-491A-AB2F-C43BF0408B65}
+name: Article1
+master: {00000000-0000-0000-0000-000000000000}
+template: {780D1F2C-5DBC-487B-BC9E-31B1B3D57CCF}
+templatekey: Article
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: c819b24b-09fb-4f43-808f-1ba05e43803a
+
+----field----
+field: {C9E36547-7176-4288-A606-4764DD36739E}
+name: HeaderImage
+key: headerimage
+content-length: 138
+
+<image mediaid="{94A2F37F-FC1F-4200-891B-5CA731283250}" mediapath="/Images/Header1" src="~/media/94A2F37FFC1F4200891B5CA731283250.ashx" />
+----field----
+field: {304FB521-2829-4FFB-8EC8-F4D56138E58C}
+name: RelatedArticles
+key: relatedarticles
+content-length: 38
+
+{BAA09BE0-1B33-42C7-B948-FFFC33152EA1}
+----field----
+field: {16A3F21B-5B14-4114-A1B5-651BE9343F37}
+name: ArticleDate
+key: articledate
+content-length: 15
+
+20120708T000000
+----field----
+field: {6D887365-5462-4E21-A44B-E490200C55FD}
+name: Title
+key: title
+content-length: 9
+
+Article 1
+----field----
+field: {94A5BF58-56E6-4AC1-96F5-80B0FB968535}
+name: Body
+key: body
+content-length: 749
+
+<p>Hedgehog Development designs and develops customized applications and Web sites, and provides technology consulting services for companies in a wide range of industries.</p>
+<p>Our expertise is in the custom application development and systems integration of .NET, SharePoint, Visual Studio Team System and Sitecore Web Content Management systems. We are a Microsoft Gold Certified Field Managed Partner as well as a Sitecore Certified Solution Partner.</p>
+<p>Combining deep technical expertise with unflinching focus on our clients&rsquo; needs, Hedgehog Development&rsquo;s sole objective is to surpass our clients&rsquo; expectations. We&rsquo;re the "friendly geeks" who take your ideas and turn them into very cool, very slick reality. </p>
+----field----
+field: {06C16129-0437-44FF-BA37-86EBFE49D8E8}
+name: SummaryImage
+key: summaryimage
+content-length: 139
+
+<image mediaid="{0F3F8E2D-187B-4553-AE4D-ADF952795D18}" mediapath="/Images/Summary1" src="~/media/0F3F8E2D187B4553AE4DADF952795D18.ashx" />
+----field----
+field: {2A9200DE-FEA0-4B6C-9604-6DC8DEEFD650}
+name: Summary
+key: summary
+content-length: 183
+
+Hedgehog Development designs and develops customized applications and Web sites, and provides technology consulting services for companies in a wide range of industries.This is a test
+----field----
+field: {53A16FC2-414C-420B-B346-05A4EEAF9F21}
+name: Keywords
+key: keywords
+content-length: 9
+
+Article 1
+----field----
+field: {432D1948-8BC9-4FDA-AA08-E36BE1F9B4E2}
+name: Description
+key: description
+content-length: 14
+
+Test Test Test
+----field----
+field: {E255B0A1-6BDC-4E0B-8D91-4DBEDFF2D038}
+name: NavigationTitle
+key: navigationtitle
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120705T082552
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c819b24b-09fb-4f43-808f-1ba05e43803a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120712T163329:634777076098352656
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
