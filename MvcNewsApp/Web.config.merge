@@ -1,0 +1,10 @@
+Assuming you are using a clean Sitecore 6.6.0.120622 MVC web.config file, the following changes should be made.
+
+Around lines 3339-3340 add in the following:
+>         <add namespace="System.Web.Helpers" />
+>         <add namespace="System.Web.WebPages" />
+
+Around line 3402-3404 look for:
+<     <compilation defaultLanguage="c#" debug="false">
+and replace that with:
+>     <compilation defaultLanguage="c#" debug="false" targetFramework="4.0">

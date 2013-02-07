@@ -73,9 +73,6 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <SitecoreItem Include="sitecore\content.item">
       <Icon>/temp/IconCache/People/16x16/cubes_blue.png</Icon>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -574,6 +571,9 @@
     <CodeGenTemplate Include="Code Generation Templates\BuildInterfaceModels.tt" />
     <CodeGenTemplate Include="Code Generation Templates\BuildModelsHeader.tt" />
     <CodeGenTemplate Include="Code Generation Templates\Common.tt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
 </Project>

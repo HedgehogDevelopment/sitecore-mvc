@@ -1,11 +1,18 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcNewsApp", "MvcNewsApp\MvcNewsApp.csproj", "{DB9C03B6-D3E4-44CA-AF99-DE16D74C2339}"
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MvcNewsApp.Deploy", "MvcNewsApp.Deploy\MvcNewsApp.Deploy.scproj", "{DE2B89FA-21CE-4004-AC8F-D718E87E74A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcNewsApp.Data", "MvcNewsApp.Data\MvcNewsApp.Data.csproj", "{875FFC39-5146-48C9-A148-4DF81452F9E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA660480-9DC8-41A7-9D69-E914B8CD40DF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
