@@ -38,10 +38,8 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <SitecoreDeployFolder>
-    </SitecoreDeployFolder>
-    <SitecoreWebUrl>
-    </SitecoreWebUrl>
+    <SitecoreDeployFolder>c:\websites\Sitecore7\website</SitecoreDeployFolder>
+    <SitecoreWebUrl>http://unbound</SitecoreWebUrl>
     <SitecoreAccessGuid>
     </SitecoreAccessGuid>
     <InstallSitecoreConnector>False</InstallSitecoreConnector>
