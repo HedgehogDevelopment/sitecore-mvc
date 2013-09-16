@@ -119,7 +119,7 @@
     <Content Include="Views\MvcNewsApp\Body\BodySidebar.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Sitecore.Mvc.config" />
+    <None Include="App_Config\Include\Sitecore.Mvc.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\MvcNewsApp\Chrome\Footer.cshtml" />
@@ -179,10 +179,10 @@
     <Content Include="Views\MvcNewsApp\PageHeader\StandardHeader.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config.merge" />
+    <None Include="Web.config.merge" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="web.config" />
+    <None Include="web.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
